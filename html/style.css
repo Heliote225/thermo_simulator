@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu img{
+    float: left;
+    margin-right: 10%;
+    margin-left: 8%;
+}
+
+.menu li{
+    float: left;
+    width: 13%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+div.menu li{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-right: 3%;
+}
+
+
+.menu ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav{
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+div.container{
+    margin: 0 auto;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+div.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+div.informations{
+    float: left;
+    text-align: center;
+    margin-right: 2%;
+    width: 48%;
+}
+
+div.repr{
+    width: 46%;
+    float: left;
+    height: 350px;
+    text-align: center;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+.menu a.actif{
+    color:orange;
+    border-bottom: 2px solid gold;
+}
+
+.menu a:hover{
+    color:orange;
+    border-bottom: 2px solid gold;
+}
+
+body
+{
+    background:radial-gradient(200px circle at 75% 50%, RGB(249,60,97) 0%, RGB(31,65,187) 30%, RGB(25,31,91) 75%, RGB(16,23,40));
+    background-repeat: no-repeat;
+    background-color: RGB(16,23,40);
+}
+
+label{
+    font-size: 175%;
+    font-weight: bold;
+    color:white;
+}
+
+input[type="text"]{
+    background-color: RGB(188,190,250);
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: linear-gradient(to left, RGB(253,60,99), RGB(150,64,251));
+}
+
+div.envoyer{
+    margin-top: 101px;
+}
+div.mesurer{
+    margin-top: 35px;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid white;
+}
+footer p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a.temperature{
+    background-color: blue;
+}
+
+
+div.info{
+    margin-top: 101px;
+}
+
+.entree{
+    margin-top: 10px;
+}
+
+#label_hct{
+    margin-top: 20px;
+}
+
+p.transmitted{
+    margin-top: 5px;
+    color: green;
+    font-weight: bold;
+}
+
+p.default{
+    margin-top: 5px;
+    color: transparent;
+}
+
+p.not_transmitted{
+    margin-top: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+
+div.container h1{
+    font-weight: bold;
+    font-style: italic;
+    color: RGB(147,64,255);
+}
+
+div.container p.texte{
+    color: white;
+}

@@ -1,6 +1,6 @@
 # thermo_simulator
 Hi everyone!
-you want to try our thermometer, Hemecue and glucometer simulator?
+Do you want to try our thermometer, Hemecue and glucometer simulator?
 Here we will use (raspberry pi + ST7735 screen + pushing button)
 After connecting all the devices quoted above, you should follow those steps to deploy the program correctly in the raspberry pi
 
@@ -13,7 +13,8 @@ STEP 2
 STEP 3
   enable the execution the file configuration.sh using: sudo chmod +x configuration.sh
   launch file configuration.sh using: ./configuration.sh
-  this configuration file install automatically an apache server if it does not exist and also install php automatically
+  this configuration file install automatically an apache server if it does not exist and also install php+mysql automatically
+  So at this level, our webserver+php+mysql are well installed
    
 STEP 4
   if you want to automate the launching of the python code when the raspberry pi start just do:

@@ -8,7 +8,8 @@ mv *.py /home/pi/Desktop/
 mv *.png /home/pi/Desktop/ 
 mv *.jpg /home/pi/Desktop/ 
 mv *.ttf /home/pi/Desktop/
-echo "Moving of the html content to /var/www/html/" 
+echo "Moving of html/ to /var/www/" 
+rm -rf /var/www/html
 sudo mv html/ /var/www/
 echo "configuration done succesfully!"  
 #SOMEVAR='text stuff'  

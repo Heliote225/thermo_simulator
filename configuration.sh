@@ -12,7 +12,7 @@ sudo chmod -R 770 /var/www/html/
 echo "Done" 
 echo "Configuration of the database measure_db"
 sudo chmod +x data.sql
-sudo mysql < data.sql
+sudo mysql --user=root < data.sql
 echo "Done"
 echo "Moving of the python files to /home/pi/Desktop/"
 sudo chmod 777 *

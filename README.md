@@ -11,14 +11,20 @@ STEP 2
   enter into the folder thermo_simulator using: cd thermo_simulator
   
 STEP 3
-  launch file start.sh using: start.sh
-  
+  enable the execution the file configuration.sh using: sudo chmod +x configuration.sh
+  launch file configuration.sh using: ./configuration.sh
+  this configuration file install automatically an apache server if it does not exist and also install php automatically
+   
 STEP 4
-  you can now delete le folder thermo_simulator using: rm thermo_simulator
-  
-STEP 5
+  if you want to automate the launching of the python code when the raspberry pi start just do:
+      -copy this in the file /etc/rc.local just before the line 'exit 0':
+          /usr/bin/python3 /home/pi/Desktop/on_off.py &
+          /usr/bin/python3 /home/pi/Desktop/affichage.py &
   restart the raspberry pi
-  
+
+STEP 5
+  now, you can delete le folder thermo_simulator using: rm -rf thermo_simulator/
+
 Now the project is correctly deployed!
 
 All you have to do now is opening a navigator on another device (Computer or Mobile phone) and enter the local ip adress of your raspberry pi.

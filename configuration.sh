@@ -6,6 +6,8 @@ sudo apt upgrade
 sudo apt update
 sudo apt install apache2
 sudo chown -R pi:www-data /var/www/html/
+sudo apt install php php-mbstring
+sudo apt install mariadb-server php-mysql
 sudo chmod -R 770 /var/www/html/
 echo "Moving of the python files to /home/pi/Desktop/"
 sudo chmod 777 *

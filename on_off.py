@@ -21,7 +21,7 @@ GPIO.setup(ECRAN, GPIO.OUT) #activation of the GPIO control
 
 GPIO.output(ECRAN, GPIO.HIGH) #we put the screen on
 
-#starting of the screen
+#launching of the display
 disp = ST7735.ST7735(port=0, cs=0, dc=24, backlight=None, rst=25, width=128, height=160, rotation=0, invert=False)
 disp.begin()
 

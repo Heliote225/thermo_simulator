@@ -23,4 +23,4 @@ CREATE TABLE utilisateurs (
         reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
         );
 
-INSERT INTO utilisateurs(nom_utilisateur,mot_de_passe) VALUES ('root', 'root');
+INSERT INTO utilisateurs(nom_utilisateur,mot_de_passe) VALUES ("root", "root");

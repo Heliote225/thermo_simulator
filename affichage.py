@@ -9,7 +9,7 @@ import ST7735
 disp = ST7735.ST7735(port=0, cs=0, dc=24, backlight=None, rst=25, width=128, height=160, rotation=0, invert=False)
 disp.begin()
 
-#collecting the scree size
+#collecting the screen size
 WIDTH = disp.width
 HEIGHT = disp.height
 

@@ -20,7 +20,7 @@ STEP 3
   
   This configuration file install automatically an apache server if it does not exist and also install php+mysql automatically
   
-  So at this level, our webserver+php+mysql are well installed
+  So at this level, our webserver+php+mysql are well installed and configured
    
 STEP 4
   if you want to automate the launching of the python code when the raspberry pi start just do:
@@ -36,8 +36,11 @@ STEP 4
 STEP 5
   now, you can delete le folder thermo_simulator using: rm -rf thermo_simulator/
 
-Now the project is correctly deployed!
+Now the project is correctly deployed! and you can start enjoying the product
 
 All you have to do now is opening a navigator on another device (Computer or Mobile phone) and enter the local ip adress of your raspberry pi.
+Then feed the connexion form by putting "root" as user name and "root" as password.
 
 Have fun!!!
+
+if you want more information about the project (electronic system + more configuration), read this blog: www.google.com
